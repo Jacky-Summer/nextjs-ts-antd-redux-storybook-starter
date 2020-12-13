@@ -17,7 +17,10 @@ module.exports = {
       node: {
         extensions: ['.tsx', '.ts', '.js', '.json'],
       },
-      alias: [['src', './src']],
+      alias: [
+        ['src', './src'],
+        ['services', './services'],
+      ],
     },
   },
   parser: '@typescript-eslint/parser',
