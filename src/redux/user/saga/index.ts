@@ -1,8 +1,7 @@
 import { call, put } from 'redux-saga/effects'
 import axios from 'axios'
 
-import { getProfileSuccess, getProfileFailure } from '..'
-import { GetProfileRequestPayload } from '../types'
+import { getProfileSuccess, getProfileFailure, getProfileRequestAction } from '..'
 
 function getProfileApi(id: number) {
   return axios
@@ -11,11 +10,11 @@ function getProfileApi(id: number) {
     .catch(reject => reject.data)
 }
 
-export function* updateProfileRequest({ id }: GetProfileRequestPayload) {
+export function* updateProfileRequest({ payload }: getProfileRequestAction) {
+  const { id } = payload
   try {
     const profile = yield call(getProfileApi, id)
     yield put(getProfileSuccess({ profile }))
-    // ...setProfileAction
   } catch (errors) {
     yield put(getProfileFailure({ errors }))
   }

@@ -11,7 +11,7 @@ export enum actionTypes {
   GET_PROFILE_FAILURE = 'user/GET_PROFILE_FAILURE',
 }
 
-interface getProfileRequestAction {
+export interface getProfileRequestAction {
   type: typeof actionTypes.GET_PROFILE_REQUEST
   payload: GetProfileRequestPayload
 }

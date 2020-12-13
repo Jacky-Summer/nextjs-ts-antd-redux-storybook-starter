@@ -1,5 +1,16 @@
-import React from 'react'
+import React, { FC, memo } from 'react'
 
-const ProfileCard = () => <div>ProfileCard</div>
+interface Props {
+  profile: UserGlobal.Profile | null
+}
 
-export default ProfileCard
+const ProfileCard: FC<Props> = ({ profile }) => (
+  <div>
+    <h2>ProfileCard</h2>
+    <div>id: {profile?.id}</div>
+    <div>username: {profile?.username}</div>
+    <div>name: {profile?.name}</div>
+  </div>
+)
+
+export default memo(ProfileCard)

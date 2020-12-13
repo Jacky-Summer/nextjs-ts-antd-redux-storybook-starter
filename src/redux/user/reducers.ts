@@ -10,6 +10,7 @@ export const initialState: UserState = {
 
 export const reducers = (state: UserState = initialState, action: UserAction): UserState => {
   const { type, payload } = action
+
   switch (type) {
     case actionTypes.GET_PROFILE_REQUEST:
       return {

@@ -13,4 +13,4 @@ const makeStore: MakeStore<Store.RootState> = () => {
   return store
 }
 
-export const wrapper = createWrapper<Store.RootState>(makeStore, { debug: true })
+export const wrapper = createWrapper<Store.RootState>(makeStore)
