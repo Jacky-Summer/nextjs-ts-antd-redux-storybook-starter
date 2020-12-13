@@ -51,5 +51,7 @@ module.exports = {
     'import/extensions': 0,
     'import/no-unresolved': 0,
     'import/prefer-default-export': 0,
+
+    '@typescript-eslint/ban-ts-comment': 0,
   },
 }
