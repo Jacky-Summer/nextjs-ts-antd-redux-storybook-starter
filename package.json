@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "commit": "git-cz",
-    "lint:css": "stylelint **/*.{ts,tsx}"
+    "lint:css": "stylelint **/*.{ts,tsx}",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "husky": {
     "hooks": {
@@ -42,8 +44,13 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/react": "^6.1.11",
     "@types/node": "^14.14.11",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
@@ -52,6 +59,7 @@
     "@types/styled-components": "^5.1.5",
     "@typescript-eslint/eslint-plugin": "^4.9.1",
     "@typescript-eslint/parser": "^4.9.1",
+    "babel-loader": "^8.2.2",
     "babel-plugin-import": "^1.13.3",
     "babel-plugin-styled-components": "^1.12.0",
     "cz-conventional-changelog": "^3.3.0",
