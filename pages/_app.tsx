@@ -4,6 +4,8 @@ import { wrapper } from 'src/redux'
 import Layout from 'src/components/layout/Layout'
 import GlobalBaseStyle from 'src/styles/GlobalBaseStyle'
 
+import 'src/i18n'
+
 import 'antd/dist/antd.css'
 
 const WrappedApp: FC<AppProps> = ({ Component, pageProps }) => (

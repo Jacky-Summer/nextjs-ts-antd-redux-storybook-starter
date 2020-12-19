@@ -1,6 +1,7 @@
 import React, { FC } from 'react'
 import styled from 'styled-components'
 import { GithubOutlined } from '@ant-design/icons'
+import { useTranslation } from 'react-i18next'
 
 const FooterWrapper = styled.footer`
   position: absolute;
@@ -22,15 +23,18 @@ const GithubLink = styled.a`
   color: #000;
 `
 
-const Footer: FC = () => (
-  <FooterWrapper>
-    <FooterText>
-      Copyright ©2020 - present Created by JackySummer
-      <GithubLink href="https://github.com/Jacky-Summer" target="_blank">
-        <GithubOutlined />
-      </GithubLink>
-    </FooterText>
-  </FooterWrapper>
-)
+const Footer: FC = () => {
+  const { t } = useTranslation()
+  return (
+    <FooterWrapper>
+      <FooterText>
+        {t('footer.copyright')}
+        <GithubLink href="https://github.com/Jacky-Summer" target="_blank">
+          <GithubOutlined />
+        </GithubLink>
+      </FooterText>
+    </FooterWrapper>
+  )
+}
 
 export default Footer
