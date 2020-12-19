@@ -8,14 +8,15 @@
 
 ## 技术栈
 
-- NextJS
-- TypeScript
-- Ant Design
-- Redux
-- Redux-saga
-- Styled-components
-- Jest
-- Storybook
+- [Next.js 10.x](https://nextjs.org/)
+- [React 17.x](https://reactjs.org/)
+- [TypeScript 4.x](https://www.typescriptlang.org/)
+- [Ant Design 4.x](https://ant.design/index-cn)
+- [Styled-components 5.x](https://styled-components.com/)
+- [Storybook 6.x](https://storybook.js.org/)
+- [Redux 4.x](https://redux.js.org/)
+- [Redux-saga 1.x](https://redux-saga.js.org/)
+- [Jest 26.x](https://styled-components.com/)
 
 ## 使用
 
