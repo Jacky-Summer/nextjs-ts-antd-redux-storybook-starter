@@ -2,6 +2,7 @@ import React, { FC } from 'react'
 import styled from 'styled-components'
 import { GithubOutlined } from '@ant-design/icons'
 import { useTranslation } from 'react-i18next'
+import Link from 'src/components/Link'
 
 const FooterWrapper = styled.footer`
   position: absolute;
@@ -18,7 +19,7 @@ const FooterWrapper = styled.footer`
 `
 const FooterText = styled.span``
 
-const GithubLink = styled.a`
+const GithubLink = styled(Link)`
   margin-left: 6px;
   color: #000;
 `
