@@ -4,11 +4,11 @@ import { normalize } from 'styled-normalize'
 const GlobalBaseStyle = createGlobalStyle`
   ${normalize};
 
-  body {
-    min-height:100%;
-    margin:0;
-    padding:0;
-    position:relative;
+  body, #__next {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
   }
 `
 

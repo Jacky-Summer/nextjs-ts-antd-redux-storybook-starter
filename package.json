@@ -33,6 +33,7 @@
     }
   },
   "dependencies": {
+    "@ant-design/icons": "^4.3.0",
     "antd": "^4.9.3",
     "axios": "^0.21.0",
     "next": "10.0.3",

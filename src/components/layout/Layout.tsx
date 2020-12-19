@@ -1,16 +1,19 @@
 import React, { FC } from 'react'
+import styled from 'styled-components'
 
 import Header from './Header'
 import Footer from './Footer'
 
+const MainWrapper = styled.div`
+  padding-bottom: 70px;
+`
+
 const Layout: FC = ({ children }) => (
-  <div className="layout">
+  <>
     <Header />
-    <div style={{ padding: '0 50px' }}>
-      <div className="site-layout-content">{children}</div>
-    </div>
+    <MainWrapper>{children}</MainWrapper>
     <Footer />
-  </div>
+  </>
 )
 
 export default Layout
