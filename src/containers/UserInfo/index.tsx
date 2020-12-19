@@ -1,7 +1,7 @@
 import React, { FC, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { getProfileRequest } from 'src/redux/user/actions'
-import ProfileCard from 'src/components/ProfileCard'
+import ProfileCard from 'src/components/User/ProfileCard'
 
 const UserInfo: FC = () => {
   const user = useSelector((state: Store.RootState) => state.user)
