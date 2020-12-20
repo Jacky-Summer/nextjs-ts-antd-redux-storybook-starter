@@ -21,6 +21,7 @@ const NextLink: FC<Props> = ({
   ...restProps
 }) => {
   const openInNewTab = target === '_blank'
+  const isExternal = isExternalLink(href)
   const rel = openInNewTab ? 'noreferrer noopener' : undefined
 
   const handleClick = (e: MouseEvent) => {
@@ -29,7 +30,7 @@ const NextLink: FC<Props> = ({
     }
   }
 
-  if (openInNewTab || isExternalLink) {
+  if (isExternal || openInNewTab) {
     return (
       <a
         className={className}
