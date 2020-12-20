@@ -3,6 +3,12 @@
 </h1>
 
 <div align="center">
+
+[![Build Status](https://travis-ci.com/Jacky-Summer/nextjs-ts-antd-redux-storybook-starter.svg?branch=master)](https://travis-ci.com/Jacky-Summer/nextjs-ts-antd-redux-storybook-starter) [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier) ![](https://img.shields.io/github/license/Jacky-Summer/nextjs-ts-antd-redux-storybook-starter)
+
+</div>
+
+<div align="center">
   <a href="https://github.com/Jacky-Summer/nextjs-ts-antd-redux-storybook-starter/blob/master/README.md" target="_self">[English README]</a>
 </div>
 
