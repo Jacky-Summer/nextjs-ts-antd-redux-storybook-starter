@@ -14,7 +14,7 @@ module.exports = {
     '^.+\\.[tj]sx?$': 'babel-jest',
   },
   collectCoverageFrom: [
-    './{src,pages,server}/**/*.{ts,tsx,js,jsx}',
+    './{src,server}/**/*.{ts,tsx,js,jsx}',
     '!**/node_modules/**',
     '!**/dist/**',
     '!**/coverage/**',
