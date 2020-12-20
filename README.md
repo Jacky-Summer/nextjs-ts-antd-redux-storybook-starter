@@ -17,6 +17,7 @@
 - [Redux 4.x](https://redux.js.org/)
 - [Redux-saga 1.x](https://redux-saga.js.org/)
 - [Jest 26.x](https://styled-components.com/)
+- [Enzyme 3.x](https://enzymejs.github.io/enzyme/)
 
 ## Usage
 
