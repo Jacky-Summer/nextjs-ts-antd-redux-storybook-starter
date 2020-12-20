@@ -1,5 +1,6 @@
 import React, { FC, MouseEvent, AnchorHTMLAttributes } from 'react'
 import Link, { LinkProps as NextLinkProps } from 'next/link'
+import { isExternalLink } from 'src/utils/url'
 
 export interface Props
   extends NextLinkProps,
@@ -16,12 +17,11 @@ const NextLink: FC<Props> = ({
   target,
   onClick,
   className,
-  openInNewTab = false,
   children,
   ...restProps
 }) => {
-  const shouldOpenInNewTab = openInNewTab || target === '_blank'
-  const rel = shouldOpenInNewTab ? 'noreferrer noopener' : undefined
+  const openInNewTab = target === '_blank'
+  const rel = openInNewTab ? 'noreferrer noopener' : undefined
 
   const handleClick = (e: MouseEvent) => {
     if (onClick) {
@@ -29,7 +29,7 @@ const NextLink: FC<Props> = ({
     }
   }
 
-  if (shouldOpenInNewTab) {
+  if (openInNewTab || isExternalLink) {
     return (
       <a
         className={className}
