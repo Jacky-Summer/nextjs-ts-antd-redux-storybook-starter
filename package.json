@@ -8,9 +8,14 @@
     "start": "next start",
     "commit": "git-cz",
     "test": "jest",
+    "coverage": "yarn jest --coverage",
+    "lint": "yarn lint:eslint && yarn lint:css",
+    "lint:eslint": "eslint --ext js,jsx,ts,tsx .",
     "lint:css": "stylelint **/*.{ts,tsx}",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "typecheck:client": "tsc --noEmit -p tsconfig.json",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o ./dist_storybook"
   },
   "husky": {
     "hooks": {
