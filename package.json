@@ -99,6 +99,7 @@
     "next-redux-wrapper": "^6.0.2",
     "prettier": "^2.2.1",
     "redux-devtools-extension": "^2.13.8",
+    "storybook-addon-next-router": "^2.0.3",
     "stylelint": "^13.8.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",

@@ -1,18 +1,19 @@
 import React, { FC } from 'react'
+import styled from 'styled-components'
+import NavMenu from './NavMenu'
 
-import { Menu } from 'antd'
+interface Props {
+  menuItems: MenuGlobal.MenuItem[]
+}
 
-const Header: FC = () => (
-  <>
-    <header>
-      <div className="logo" />
-      <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
-        <Menu.Item key="1">nav 1</Menu.Item>
-        <Menu.Item key="2">nav 2</Menu.Item>
-        <Menu.Item key="3">nav 3</Menu.Item>
-      </Menu>
-    </header>
-  </>
+const HeaderWrapper = styled.header`
+  padding: 0 15px;
+`
+
+const Header: FC<Props> = ({ menuItems }) => (
+  <HeaderWrapper>
+    <NavMenu menuItems={menuItems} />
+  </HeaderWrapper>
 )
 
 export default Header
