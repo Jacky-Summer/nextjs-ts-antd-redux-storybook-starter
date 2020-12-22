@@ -1,4 +1,9 @@
 {
+  "home": {
+    "user": "Go to User Page",
+    "articles": "Go to Articles Page",
+    "change_lang": "Switch to Chinese"
+  },
   "footer": {
     "copyright": "Copyright ©2020 - present Created by JackySummer"
   }

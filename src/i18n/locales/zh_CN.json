@@ -1,4 +1,9 @@
 {
+  "home": {
+    "user": "进入用户页",
+    "articles": "进行文章列表页",
+    "change_lang": "切换英文"
+  },
   "footer": {
     "copyright": "版权 ©2020-至今 归 JackySummer 所有"
   }
