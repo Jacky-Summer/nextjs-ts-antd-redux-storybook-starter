@@ -4,6 +4,14 @@
     "articles": "Go to Articles Page",
     "change_lang": "Switch to Chinese"
   },
+  "user": {
+    "intro": "Example：fetch data from redux-saga",
+    "info": "User info",
+    "title": "User Page",
+    "id": "id",
+    "username": "username",
+    "name": "name"
+  },
   "footer": {
     "copyright": "Copyright ©2020 - present Created by JackySummer"
   }

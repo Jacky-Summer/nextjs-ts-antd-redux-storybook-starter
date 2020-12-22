@@ -4,6 +4,14 @@
     "articles": "进行文章列表页",
     "change_lang": "切换英文"
   },
+  "user": {
+    "intro": "案例：从 redux-saga 中请求数据",
+    "info": "用户信息",
+    "title": "用户页",
+    "id": "用户ID",
+    "username": "用户名",
+    "name": "姓名"
+  },
   "footer": {
     "copyright": "版权 ©2020-至今 归 JackySummer 所有"
   }
