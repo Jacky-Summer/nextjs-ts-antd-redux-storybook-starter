@@ -1,16 +1,16 @@
 import React from 'react'
 import { NextPage } from 'next'
-import styled from 'styled-components'
+import { useTranslation } from 'react-i18next'
 import User from 'src/components/User'
+import { Title } from 'src/components/common'
 
-const Wrapper = styled.div`
-  text-align: center;
-  margin-top: 50px;
-`
-
-const UserPage: NextPage = () => (
-  <Wrapper>
-    <User />
-  </Wrapper>
-)
+const UserPage: NextPage = () => {
+  const { t } = useTranslation()
+  return (
+    <div>
+      <Title>{t('user.title')}</Title>
+      <User />
+    </div>
+  )
+}
 export default UserPage

@@ -5,12 +5,19 @@
     "change_lang": "Switch to Chinese"
   },
   "user": {
+    "title": "User Page",
     "intro": "Example：fetch data from redux-saga",
     "info": "User info",
-    "title": "User Page",
     "id": "id",
     "username": "username",
     "name": "name"
+  },
+  "articles": {
+    "title": "ArticleList Page",
+    "intro": "get data from getStaticProps",
+    "article_id": "id",
+    "article_title": "title",
+    "article_body": "content"
   },
   "footer": {
     "copyright": "Copyright ©2020 - present Created by JackySummer"

@@ -5,6 +5,7 @@ import Header from 'src/components/Header'
 import Footer from 'src/components/Footer'
 
 const MainWrapper = styled.div`
+  text-align: center;
   padding-bottom: 70px;
 `
 
