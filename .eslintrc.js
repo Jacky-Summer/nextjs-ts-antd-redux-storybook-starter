@@ -20,7 +20,7 @@ module.exports = {
       },
       alias: [
         ['src', './src'],
-        ['services', './services'],
+        ['server', './server'],
       ],
     },
   },

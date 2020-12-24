@@ -3,7 +3,7 @@ import { NextPage, GetStaticProps } from 'next'
 import { useTranslation } from 'react-i18next'
 import ArticleContainer from 'src/containers/ArticleContainer'
 import { Title } from 'src/components/common'
-import { getArticles } from 'services/articles'
+import { getArticles } from 'server/api/articles'
 
 interface Props {
   articles: ArticleGlobal.Article[]

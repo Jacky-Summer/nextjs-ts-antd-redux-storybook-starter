@@ -1,5 +1,5 @@
 import { call, put } from 'redux-saga/effects'
-import { getProfileApi } from 'services/user'
+import { getProfileApi } from 'server/api/user'
 
 import { getProfileSuccess, getProfileFailure, getProfileRequestAction } from '..'
 
