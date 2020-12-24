@@ -2,11 +2,9 @@
    Nextjs-TS-Antd-Redux-Storybook-Jest-Starter
 </h1>
 
-<div style="text-align: center;margin-bottom: 16px;">
-  <span style="font-weight: bold;font-size: 18px;">
-    A starter project for Next.js applications for faster build
-  </span>
-</div>
+<h5 align="center">
+  A starter project for Next.js applications for faster build
+</h5>
 
 <div align="center">
 
