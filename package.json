@@ -1,7 +1,28 @@
 {
-  "name": "nextjs-ts-redux-antd-starter",
+  "name": "nextjs-ts-antd-redux-storybook-jest-starter",
   "version": "0.1.0",
-  "private": true,
+  "description": "Next.js + TypeScript Project Starter",
+  "title": "Next.js Project Template",
+  "author": "JackySummer",
+  "keywords": [
+    "react",
+    "nextjs",
+    "nextjs-starter",
+    "nextjs-template",
+    "typescript",
+    "redux",
+    "redux-saga",
+    "ant-design",
+    "styled-components",
+    "storybook",
+    "jest",
+    "enzyme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jacky-Summer/nextjs-ts-antd-redux-storybook-starter"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,7 +34,7 @@
     "lint:eslint": "eslint --ext js,jsx,ts,tsx .",
     "lint:css": "stylelint **/*.{ts,tsx}",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
-    "typecheck:client": "tsc --noEmit -p tsconfig.json",
+    "tsc:client": "tsc --noEmit -p tsconfig.json",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o ./dist_storybook"
   },
