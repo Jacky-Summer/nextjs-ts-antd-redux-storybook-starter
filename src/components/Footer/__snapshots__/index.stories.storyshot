@@ -33,7 +33,7 @@ exports[`Storyshots Example/Footer Default 1`] = `
   className="c0"
 >
   <span
-    className="Footer__FooterText-sc-99bqix-1"
+    className="Footer__FooterText-sc-5wwxti-1"
   >
     版权 ©2020-至今 归 JackySummer 所有
     <a
