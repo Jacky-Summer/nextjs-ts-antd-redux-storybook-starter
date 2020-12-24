@@ -2,9 +2,9 @@
    Nextjs-TS-Antd-Redux-Storybook-Jest-Starter
 </h1>
 
-<h5 align="center">
+<h4 align="center">
   A starter project for Next.js applications for faster build
-</h5>
+</h4>
 
 <div align="center">
 
