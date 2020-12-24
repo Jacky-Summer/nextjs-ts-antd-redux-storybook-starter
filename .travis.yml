@@ -3,8 +3,6 @@ language: node_js
 node_js:
   - "stable"
 
-cache: yarn
-
 install:
   - yarn
 script:
