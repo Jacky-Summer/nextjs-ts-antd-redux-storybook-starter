@@ -1,6 +1,12 @@
 <h1 align="center">
-   Nextjs-Ts-Antd-Redux-Storybook-Jest-Starter
+   Nextjs-TS-Antd-Redux-Storybook-Jest-Starter
 </h1>
+
+<div style="text-align: center;margin-bottom: 16px;">
+  <span style="font-weight: bold;font-size: 18px;">
+    快速构建 Next.js 应用的脚手架
+  </span>
+</div>
 
 <div align="center">
 
@@ -11,6 +17,10 @@
 <div align="center">
   <a href="https://github.com/Jacky-Summer/nextjs-ts-antd-redux-storybook-starter/blob/master/README.md" target="_self">[English README]</a>
 </div>
+
+## 状态
+
+🚧 维护中...
 
 ## 技术栈
 
