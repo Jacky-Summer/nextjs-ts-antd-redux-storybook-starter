@@ -21,7 +21,7 @@ const ArticlesPage: NextPage<Props> = ({ articles }) => {
 export const getStaticProps: GetStaticProps = async () => {
   const res = await getArticles()
   const articles: Props['articles'] = res?.data
-  // todo: add it to redux
+
   return {
     props: {
       articles,
