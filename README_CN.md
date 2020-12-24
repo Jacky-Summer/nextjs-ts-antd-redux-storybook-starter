@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  A starter project for Next.js applications for faster build
+  一个快速构建 Next.js 项目的脚手架
 </h4>
 
 <div align="center">
