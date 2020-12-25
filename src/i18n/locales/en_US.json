@@ -21,5 +21,9 @@
   },
   "footer": {
     "copyright": "Copyright ©2020 - present Created by JackySummer"
-  }
+  },
+  "error": {
+    "404": "Sorry, the page you visited does not exist."
+  },
+  "back_home": "Back to home page"
 }
