@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.0](https://github.com/Jacky-Summer/nextjs-ts-antd-redux-storybook-starter/compare/v0.1.0...v1.0.0) (2021-01-31)
+
+### Features
+
+- ✨ add 404 page ([832beb5](https://github.com/Jacky-Summer/nextjs-ts-antd-redux-storybook-starter/commit/832beb531b052ba3f092945a8fad1f16d11840d5))
+- add nextjs bundle analyzer ([acc1bdb](https://github.com/Jacky-Summer/nextjs-ts-antd-redux-storybook-starter/commit/acc1bdb1f4bd03eb6fd71d7cb9fa4a20464e8f12))
+
 ### 0.1.1 (2020-12-24)
 
 ### Features
