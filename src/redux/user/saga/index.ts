@@ -8,7 +8,8 @@ export function* updateProfileRequest({ payload }: getProfileRequestAction) {
   try {
     const data = yield call(getProfileApi, id)
     yield put(getProfileSuccess({ profile: data.data }))
-  } catch (errors) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  } catch (errors: any) {
     yield put(getProfileFailure({ errors }))
   }
 }
