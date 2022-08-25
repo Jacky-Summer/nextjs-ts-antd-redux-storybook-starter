@@ -3,8 +3,8 @@ import { applyMiddleware, createStore } from 'redux'
 import createSagaMiddleware from 'redux-saga'
 import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly'
 
-import rootReducer from 'src/redux/rootReducers'
-import rootSaga from 'src/redux/rootSagas'
+import rootReducer from 'src/store/rootReducers'
+import rootSaga from 'src/store/rootSagas'
 
 const makeStore: MakeStore<Store.RootState> = () => {
   const sagaMiddleware = createSagaMiddleware()

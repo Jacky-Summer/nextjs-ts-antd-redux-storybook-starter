@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
 import { HYDRATE } from 'next-redux-wrapper'
-import * as user from 'src/redux/user'
+import * as user from 'src/store/user'
 import { UserAction } from './user/actions'
 
 const rootReducer = combineReducers({
