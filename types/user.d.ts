@@ -26,6 +26,6 @@ declare namespace UserGlobal {
   interface UserState {
     profile: Profile | null
     isLoading: boolean
-    errors: Errors
+    errors: unknown
   }
 }

@@ -7,7 +7,5 @@ export interface GetProfileSuccessPayload {
 }
 
 export interface GetProfileFailurePayload {
-  errors: Errors
+  errors: unknown
 }
-
-export type Payload = GetProfileRequestPayload | GetProfileSuccessPayload | GetProfileFailurePayload

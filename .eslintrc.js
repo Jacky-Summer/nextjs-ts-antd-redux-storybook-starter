@@ -47,6 +47,7 @@ module.exports = {
 
     'no-use-before-define': 0,
     'no-unused-vars': 0,
+    'no-param-reassign': 0,
     'implicit-arrow-linebreak': 0,
     'consistent-return': 0,
     'arrow-parens': 0,
@@ -59,5 +60,6 @@ module.exports = {
 
     '@typescript-eslint/ban-ts-comment': 0,
     '@typescript-eslint/no-var-requires': 0,
+    '@typescript-eslint/explicit-module-boundary-types': 0,
   },
 }

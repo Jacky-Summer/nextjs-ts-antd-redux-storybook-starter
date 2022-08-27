@@ -1,21 +1,8 @@
-import { combineReducers } from 'redux'
-import { HYDRATE } from 'next-redux-wrapper'
-import * as user from 'src/store/user'
-import { UserAction } from './user/actions'
+import { combineReducers } from '@reduxjs/toolkit'
+import { userReducer } from 'src/store/user'
 
 const rootReducer = combineReducers({
-  user: user.reducers,
+  user: userReducer,
 })
 
-export type RootAction = UserAction
-
-const reducer = (state, action): Store.RootState => {
-  switch (action.type) {
-    case HYDRATE:
-      return { ...state, ...action.payload }
-    default:
-      return rootReducer(state, action)
-  }
-}
-
-export default reducer
+export default rootReducer
