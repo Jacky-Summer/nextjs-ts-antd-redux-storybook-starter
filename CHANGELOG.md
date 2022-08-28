@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/Jacky-Summer/nextjs-ts-antd-redux-storybook-starter/compare/v1.0.0...v1.1.0) (2022-08-28)
+
+### Features
+
+- deprecate enzyme test library ([0ed816f](https://github.com/Jacky-Summer/nextjs-ts-antd-redux-storybook-starter/commit/0ed816f8d7cb30a3dd72f870e0b11f10b2382a0b))
+- migrate to pnpm ([3362dc2](https://github.com/Jacky-Summer/nextjs-ts-antd-redux-storybook-starter/commit/3362dc27cabf128b425d493f3bde27b0f1ba0cab))
+
 ### [1.0.0](https://github.com/Jacky-Summer/nextjs-ts-antd-redux-storybook-starter/compare/v0.1.0...v1.0.0) (2021-01-31)
 
 ### Features
