@@ -25,10 +25,10 @@
 - [Next.js 10.x](https://nextjs.org/)
 - [React 17.x](https://reactjs.org/)
 - [TypeScript 4.x](https://www.typescriptlang.org/)
-- [Ant Design 4.x](https://ant.design/index-cn)
+- [Ant Design 4.9](https://ant.design/index-cn)
 - [Styled-components 5.x](https://styled-components.com/)
 - [Storybook 6.x](https://storybook.js.org/)
-- [Redux 4.x](https://redux.js.org/)
+- [Redux Toolkit 1.8](https://redux-toolkit.js.org/)
 - [Redux-saga 1.x](https://redux-saga.js.org/)
 - [Jest 26.x](https://styled-components.com/)
 
@@ -40,6 +40,15 @@
 yarn install
 yarn dev
 ```
+
+## 重大升级
+
+### v1.0.0 -> v2.0.0（2022.08）
+
+- 从 `yarn` 迁移为 `pnpm`
+- 使用 `@redux/toolkit` 重构 `redux` 库的繁琐写法
+- 重构文件结构与文件命名、接口命名等
+- 弃用 `enzyme` 测试库
 
 ## 开源协议
 
