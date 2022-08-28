@@ -1,11 +1,19 @@
+import { IProfile } from 'src/types/user'
+
 export interface GetProfileRequestPayload {
-  id: UserGlobal.Profile['id']
+  id: IProfile['id']
 }
 
 export interface GetProfileSuccessPayload {
-  profile: UserGlobal.Profile
+  profile: IProfile
 }
 
 export interface GetProfileFailurePayload {
+  errors: unknown
+}
+
+export interface UserState {
+  profile: IProfile | null
+  isLoading: boolean
   errors: unknown
 }

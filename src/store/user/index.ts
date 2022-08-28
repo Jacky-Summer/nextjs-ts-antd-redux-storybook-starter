@@ -3,9 +3,10 @@ import {
   GetProfileRequestPayload,
   GetProfileSuccessPayload,
   GetProfileFailurePayload,
+  UserState,
 } from './types'
 
-const initialState: UserGlobal.UserState = {
+const initialState: UserState = {
   profile: null,
   isLoading: false,
   errors: null,

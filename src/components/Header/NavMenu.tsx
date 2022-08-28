@@ -2,12 +2,13 @@ import React, { FC } from 'react'
 import { Menu } from 'antd'
 import { useRouter } from 'next/router'
 import Link from 'src/components/Link'
+import { IMenuItem } from './types'
 
-interface Props {
-  menuItems: MenuGlobal.MenuItem[]
+interface IProps {
+  menuItems: IMenuItem[]
 }
 
-const NavMenu: FC<Props> = ({ menuItems }) => {
+const NavMenu: FC<IProps> = ({ menuItems }) => {
   const router = useRouter()
   return (
     <Menu mode="horizontal" defaultSelectedKeys={['/']} selectedKeys={[router.pathname]}>

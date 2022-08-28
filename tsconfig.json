@@ -2,8 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "src/*": ["src/*"],
-      "server/*": ["server/*"]
+      "src/*": ["src/*"]
     },
     "target": "es5",
     "module": "esnext",

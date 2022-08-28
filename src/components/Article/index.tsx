@@ -1,17 +1,18 @@
 import React, { FC } from 'react'
 import styled from 'styled-components'
 import { useTranslation } from 'react-i18next'
+import { IArticleInfo } from 'src/types/articles'
 import ArticleCard from './ArticleCard'
 
 const Intro = styled.div`
   font-size: 16px;
 `
 
-interface Props {
-  articles: ArticleGlobal.Article[]
+interface IProps {
+  articles: IArticleInfo[]
 }
 
-const ArticleList: FC<Props> = ({ articles }) => {
+const ArticleList: FC<IProps> = ({ articles }) => {
   const { t } = useTranslation()
   return (
     <>

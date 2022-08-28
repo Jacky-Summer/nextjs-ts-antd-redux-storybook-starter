@@ -2,7 +2,7 @@ import React, { FC, MouseEvent, AnchorHTMLAttributes } from 'react'
 import Link, { LinkProps as NextLinkProps } from 'next/link'
 import { isExternalLink } from 'src/utils/url'
 
-export interface Props
+export interface IProps
   extends NextLinkProps,
     Pick<AnchorHTMLAttributes<HTMLAnchorElement>, 'target'> {
   openInNewTab?: boolean
@@ -11,7 +11,7 @@ export interface Props
   className?: string
 }
 
-const NextLink: FC<Props> = ({
+const NextLink: FC<IProps> = ({
   href,
   title,
   target,
@@ -25,9 +25,7 @@ const NextLink: FC<Props> = ({
   const rel = openInNewTab ? 'noreferrer noopener' : undefined
 
   const handleClick = (e: MouseEvent) => {
-    if (onClick) {
-      onClick(e)
-    }
+    onClick?.(e)
   }
 
   if (isExternal || openInNewTab) {

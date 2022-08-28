@@ -1,5 +1,5 @@
 import { call, put, takeLatest } from 'redux-saga/effects'
-import { getProfileApi } from 'server/api/user'
+import { getProfileApi } from 'src/api/user'
 import { getProfileRequest } from 'src/store/user'
 import { GetProfileRequestPayload } from 'src/store/user/types'
 import { PayloadAction } from '@reduxjs/toolkit'

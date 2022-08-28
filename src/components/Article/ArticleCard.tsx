@@ -2,6 +2,7 @@ import React, { FC } from 'react'
 import styled from 'styled-components'
 import { useTranslation } from 'react-i18next'
 import { Card } from 'antd'
+import { IArticleInfo } from 'src/types/articles'
 
 const Text = styled.div`
   font-size: 16px;
@@ -14,9 +15,7 @@ const CardContainer = styled(Card)`
   margin: 40px auto;
 `
 
-type Props = ArticleGlobal.Article
-
-const ArticleCard: FC<Props> = ({ id, title, body }) => {
+const ArticleCard: FC<IArticleInfo> = ({ id, title, body }) => {
   const { t } = useTranslation()
 
   return (

@@ -2,6 +2,7 @@ import React, { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 import { Card } from 'antd'
+import { IProfile } from 'src/types/user'
 
 const Intro = styled.div`
   font-size: 16px;
@@ -17,12 +18,12 @@ const Item = styled.div`
   margin: 10px 0;
 `
 
-interface Props {
-  profile: UserGlobal.Profile | null
+interface IProps {
+  profile: IProfile | null
   isLoading: boolean
 }
 
-const Profile: FC<Props> = ({ profile, isLoading }) => {
+const Profile: FC<IProps> = ({ profile, isLoading }) => {
   const { t } = useTranslation()
 
   return (

@@ -29,12 +29,12 @@ const Message = styled.span`
   font-size: 16px;
 `
 
-interface Props {
+interface IProps {
   statusCode: number
   message: string
 }
 
-const Error: FC<Props> = ({ statusCode, message }) => {
+const Error: FC<IProps> = ({ statusCode, message }) => {
   const { t } = useTranslation()
   return (
     <ErrorWrapper>
