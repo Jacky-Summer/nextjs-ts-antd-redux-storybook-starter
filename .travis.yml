@@ -1,12 +1,11 @@
 language: node_js
 
 node_js:
-  - "stable"
-
-cache: yarn
+  - 16.7.0
 
 install:
-  - yarn
+  - npm install -g pnpm@6
+  - pnpm i
 script:
-  - yarn test
-  - yarn build
+  - pnpm run test
+  - pnpm run build

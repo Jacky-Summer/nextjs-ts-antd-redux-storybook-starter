@@ -25,13 +25,12 @@
 - [Next.js 10.x](https://nextjs.org/)
 - [React 17.x](https://reactjs.org/)
 - [TypeScript 4.x](https://www.typescriptlang.org/)
-- [Ant Design 4.x](https://ant.design/index-cn)
+- [Ant Design 4.9](https://ant.design/index-cn)
 - [Styled-components 5.x](https://styled-components.com/)
 - [Storybook 6.x](https://storybook.js.org/)
-- [Redux 4.x](https://redux.js.org/)
+- [Redux Toolkit 1.8](https://redux-toolkit.js.org/)
 - [Redux-saga 1.x](https://redux-saga.js.org/)
 - [Jest 26.x](https://styled-components.com/)
-- [Enzyme 3.x](https://enzymejs.github.io/enzyme/)
 
 ## Usage
 
@@ -41,6 +40,15 @@
 yarn install
 yarn dev
 ```
+
+## Major Upgrade
+
+### v1.0.0 -> v1.1.0（2022.08）
+
+- migrate `yarn` to `pnpm`
+- replace `redux` with `@redux/toolkit`
+- refactor folder structure and rename variable
+- deprecate `enzyme` test library
 
 ## License
 

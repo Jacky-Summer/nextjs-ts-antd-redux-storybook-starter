@@ -1,5 +1,4 @@
 module.exports = {
-  setupFiles: ['<rootDir>/jest.setup.ts'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'json'],
   testPathIgnorePatterns: ['<rootDir>/dist/', '<rootDir>/node_modules/', '<rootDir>/.next/'],
   moduleNameMapper: {
