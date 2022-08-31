@@ -37,8 +37,8 @@
 ↗️ **点击该仓库右上角 "Use this template" 按钮**
 
 ```
-yarn install
-yarn dev
+pnpm i
+pnpm dev
 ```
 
 ## 重大升级

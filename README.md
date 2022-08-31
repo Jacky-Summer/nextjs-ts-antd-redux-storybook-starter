@@ -37,8 +37,8 @@
 ↗️ **Click the green "Use this template" button in the top right corner.**
 
 ```
-yarn install
-yarn dev
+pnpm i
+pnpm dev
 ```
 
 ## Major Upgrade
